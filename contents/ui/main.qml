@@ -11,6 +11,7 @@ PlasmoidItem {
     id: root
     // Your further code
     Plasmoid.icon: Qt.resolvedUrl("../earbuds-outline.svg")
+    property bool expanded: Plasmoid.expanded
 
     width: 50
     height: 40
@@ -54,7 +55,7 @@ PlasmoidItem {
             id: soundModePoller
 
             interval: 1000
-            running: false
+            running: root.expanded
             repeat: true
             triggeredOnStart: true
 
