@@ -11,6 +11,14 @@ This applet relies on [pbpctrl](https://github.com/qzed/pbpctrl) to function. On
 it can be installed from the AUR as `pbpctrl`.
 
 
+## Installation
+
+Installation is fairly straightforward. From the Github page, click "Code" -> "Download ZIP"
+and save the file. Then, right click your panel, choose "Show Panel Configuration", and go to
+"Add or Manage Widgets". Click "Get New", then "Install Widget From Local File", and pick the
+zip file you just downloaded. The applet should be available to put on your panel!
+
+
 ## Screenshot
 
 ![PBPCtrl in the panel](./screenshots/01.png)
