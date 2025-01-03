@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "mariobuddy@gmail.com",
+                "Name": "Shaun Keys"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "An applet to control Pixel Buds Pro from the taskbar",
+        "Icon": "battery",
+        "Id": "com.shaunkeys.plasmoids.pbpcontrol",
+        "Name": "Pixel Buds Pro Control",
+        "Version": "1",
+        "Website": "https://github.com/sploders101/pbpcontrol-plasmoid"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
